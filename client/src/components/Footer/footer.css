@@ -1,0 +1,86 @@
+.footer-main{
+    background-color: white;
+    color: black;
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 120px;
+    }
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 300px;
+    height: 200px;
+}
+.footer-logo-img{
+    background: url('../../assets/icon_rudy_black.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-bottom: -40px;
+    margin-left: -30px;
+
+}
+
+.footer-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-mid-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.footer-mid-top .timings{
+    display: flex;
+    gap: 20px;
+    ul li{
+        list-style: none;
+    }
+
+    .timings-day{
+        text-decoration:solid;
+        font-weight: bold;
+    }
+}
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.line{
+    background-color: black;
+    height: 10px;
+}
+
+.footer-copyright{
+    border-top: 1px  solid black;
+    /* border-bottom: 4px  solid black; */
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+

@@ -1,0 +1,32 @@
+.lines-main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px 0px;
+
+    .line-1{
+        background-color: white;
+        height: 1px;
+    }
+  
+    .line-2{
+        background-color: white;
+        height: 2px;
+    }
+    .line-3{
+        background-color: white;
+        height: 3px;
+    }
+    .line-4{
+        background-color: white;
+        height: 4px;
+    }
+    .line-5{
+        background-color: white;
+        height: 5px;
+    }
+      .line-6{
+        background-color: white;
+        height: 6px;
+    }
+}

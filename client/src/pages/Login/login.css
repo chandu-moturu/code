@@ -1,0 +1,23 @@
+.login-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.login-container{
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid gray;
+
+}

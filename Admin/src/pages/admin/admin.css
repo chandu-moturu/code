@@ -1,0 +1,51 @@
+.appointments-main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+}
+.table-header {
+  display: flex;
+  gap: 20px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  /* background-color: blue; */
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: transparent;
+}
+textarea {
+  width: 640px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: transparent;
+}
+
+.select-box {
+  width: 320px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: #242424;
+}
